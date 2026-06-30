@@ -1,0 +1,16 @@
+Gerra RTL Evaluation Task - Reference Sample License
+
+Copyright (c) 2026 Gerra. All rights reserved.
+
+This repository is published as a reference sample so prospective buyers and partners can
+evaluate the design and grading methodology of Gerra's RTL evaluation tasks. You may view,
+clone, and run its contents for the purpose of evaluating Gerra's work.
+
+You may not redistribute, sublicense, sell, or incorporate this material, in whole or in
+part, into a dataset, evaluation suite, training corpus, or product without Gerra's prior
+written permission.
+
+The task, its golden reference, and its grader are provided "as is", without warranty of
+any kind, express or implied.
+
+Contact: hello@gerra.com

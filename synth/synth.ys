@@ -1,0 +1,8 @@
+# yosys synthesis script (ICE40) — mirrors the grader's synthesis layer.
+# Run from the task root:  yosys -s synth/synth.ys
+read_verilog -sv rtl/rx_frontend.sv rtl/lib/fifo_v3.sv rtl/lib/status_csr.sv
+hierarchy -top rx_frontend
+proc
+tee -q -o build/latch.rpt select -count t:$dlatch
+synth_ice40 -noflatten -top rx_frontend -json build/synth_ice40.json
+stat
